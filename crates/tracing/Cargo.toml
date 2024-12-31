@@ -1,0 +1,14 @@
+[package]
+name = "appbiotic-tracing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+strum = { version = "0.26.3", features = ["derive", "std"] }
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = [
+    "ansi",
+    "env-filter",
+    "fmt",
+    "json",
+] }
