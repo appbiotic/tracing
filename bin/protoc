@@ -1,0 +1,61 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "protoc",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 2290923,
+      "hash": "blake3",
+      "digest": "613a2fdd71feacff45a2fca2b1efe41886d2f4cc5cb9fc67be1f6107d52b5343",
+      "format": "zip",
+      "path": "bin/protoc",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "https://github.com/protocolbuffers/protobuf",
+          "tag": "v29.4",
+          "name": "protoc-29.4-osx-aarch_64.zip"
+        },
+        {
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v29.4/protoc-29.4-osx-aarch_64.zip"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 3288836,
+      "hash": "blake3",
+      "digest": "4bab93186900937222ce3ea7a3fd785babf288307f537081de1a73d8e1ca4d80",
+      "format": "zip",
+      "path": "bin/protoc",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "https://github.com/protocolbuffers/protobuf",
+          "tag": "v29.4",
+          "name": "protoc-29.4-linux-x86_64.zip"
+        },
+        {
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v29.4/protoc-29.4-linux-x86_64.zip"
+        }
+      ]
+    },
+    "linux-aarch64": {
+      "size": 3256817,
+      "hash": "blake3",
+      "digest": "ddc4d932261df276567a8bb43d78609a1e6c53fb34881a7bc1f72a01bc8c2572",
+      "format": "zip",
+      "path": "bin/protoc",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "https://github.com/protocolbuffers/protobuf",
+          "tag": "v29.4",
+          "name": "protoc-29.4-linux-aarch_64.zip"
+        },
+        {
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v29.4/protoc-29.4-linux-aarch_64.zip"
+        }
+      ]
+    }
+  }
+}
