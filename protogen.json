@@ -1,0 +1,19 @@
+{
+    "rust": [
+        {
+            "name": "appbiotic-tracing-config",
+            "version": "0.1.0",
+            "path": "crates/tracing-config",
+            "proto_package_name": "appbiotic.tracing.config",
+            "compile_well_known_protos": true,
+            "protos": [
+                {
+                    "dir": "../../protos",
+                    "files": [
+                        "appbiotic/tracing/config/config.proto"
+                    ]
+                }
+            ]
+        }
+    ]
+}

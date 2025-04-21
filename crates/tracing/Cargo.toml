@@ -3,8 +3,16 @@ name = "appbiotic-tracing"
 version = "0.1.0"
 edition = "2021"
 
+[features]
+default = ["uniffi"]
+uniffi = ["dep:uniffi"]
+
 [dependencies]
+anyhow = { version = "1.0.98", features = ["std"] }
+appbiotic-tracing-config = { path = "../tracing-config" }
+derive-new = "0.7.0"
 strum = { version = "0.27.1", features = ["derive", "std"] }
+thiserror = "2.0.12"
 tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = [
     "ansi",
@@ -12,3 +20,4 @@ tracing-subscriber = { version = "0.3.19", features = [
     "fmt",
     "json",
 ] }
+uniffi = { version = "0.29.1", optional = true }

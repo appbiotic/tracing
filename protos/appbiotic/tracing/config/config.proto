@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package appbiotic.tracing.config;
+
+message Config {
+    optional Preset preset = 1;
+}
+
+enum Preset {
+    UNKNOWN_PRESET = 0;
+    PLAIN_TEXT = 1;
+    JSON = 2;
+}
